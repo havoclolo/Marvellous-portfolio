@@ -1,0 +1,221 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body style=" font-family: Editorial New sans-serif">
+        
+<nav class="navbar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+
+                <span class="navbar-brand">Lagos, NG</span>
+
+
+                <span class="navbar-logo mx-auto">My Paper Portfolio</span>
+
+                <!-- Right: Two-line Hamburger -->
+                <button class="navbar-toggler custom-2line" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasMenu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Fullscreen Offcanvas -->
+        <div class="offcanvas offcanvas-top custom-offcanvas" tabindex="-1" id="offcanvasMenu">
+            <div class="offcanvas-body d-flex flex-column align-items-center justify-content-center">
+                <a class="nav-link big-link" href="#">Home</a>
+                <a class="nav-link big-link" href="#">Projects</a>
+                <a class="nav-link big-link" href="#">About</a>
+                <a class="nav-link big-link" href="#">Contact</a>
+            </div>
+        </div>
+
+    
+        <script>
+        const toggler = document.querySelector(".custom-2line");
+        const offcanvas = document.getElementById("offcanvasMenu");
+
+        offcanvas.addEventListener("show.bs.offcanvas", () => {
+            toggler.classList.add("active");
+        });
+
+        offcanvas.addEventListener("hide.bs.offcanvas", () => {
+            toggler.classList.remove("active");
+        });
+        </script>
+
+<header class="head  overflow-x-scroll  hide-scrollbar" >
+  
+    <div class="head-row1">
+        <img src="./multimedia/humankind.png" alt="" >
+        <br>
+        <h1> <a class="go1" href="https://humankind.game/en">HUMANKIND</a> <button class="btn btn-danger btn-sm mb-2" >NEW </button></h1>
+        <P>Humankind is a historical turn-based strategy game where you combine cultures from different eras to build a unique civilization and rewrite the entire narrative of human history.</P>
+    </div>
+    <div class="head-row2 ">
+        <h1 class="">ALL WORK!</h1>
+        <h2>A Featured selection the latest <br>work- of the last months.</h2>
+
+        <p>TIP! Drag sideways to navigate</p>
+    </div>
+    <div class="head-row3">
+        <img src="./multimedia/piggyvest.png" alt="">
+        <br>
+        <h1>PIGGY VEST <button class="btn btn-danger btn-sm mb-2">NEW</button></h1>
+        <P>PiggyVest is a Nigerian online savings and investment platform that helps users automate regular savings, earn competitive interest, and invest in various opportunities to build long-term wealth.</P>
+    </div>
+    <div class="head-row">
+        <img src="./multimedia/thoughtbot.png" alt="">
+        <br>
+        <h1>THOUGHTBOT <button class="btn btn-danger btn-sm mb-2">NEW</button></h1>
+        <P>The thoughtbot blog is a resource for web developers and designers, featuring expert articles and tutorials on Ruby on Rails, React, design practices, and startup methodologies.</P>
+    </div>
+    <!-- <div class="head-row">
+        <img src="./multimedia/want1.jpeg" alt="">
+        <br>
+        <h1>AVRO|KO <button>NEW</button></h1>
+        <P>AvroKO is an award-winning global design firm, estabilshed itself as a leader in interior architecture for hospitailty, restaurant and bars</P>
+    </div>
+     <div class="head-row">
+        <img src="./multimedia/want1.jpeg" alt="">
+        <br>
+        <h1>AVRO|KO <button>NEW</button></h1>
+        <P>AvroKO is an award-winning global design firm, estabilshed itself as a leader in interior architecture for hospitailty, restaurant and bars</P>
+    </div>
+    <div class="head-row">
+        <img src="./multimedia/want1.jpeg" alt="">
+        <br>
+        <h1>AVRO|KO <button>NEW</button></h1>
+        <P>AvroKO is an award-winning global design firm, estabilshed itself as a leader in interior architecture for hospitailty, restaurant and bars</P>
+    </div> -->
+    
+</header>
+
+<section class="sec1">
+    <div class="sec1-data mt-5 ms-4">
+        <h1 class="">MARVELLOUS</h1>
+    </div>
+</section>
+
+<section class="sec2">
+    <div class="sec2-data1">
+        <h1 class="led1">INTERACTIVE ARTIST</h1>
+        <img src="./multimedia/face2.jpeg" alt="" class="img1">
+        <h1 class="led2">The portfolio provides a curated overview of my experience and expertise in html and css, and what makes me stand out from others</h1>
+    </div>
+    <div class="sec2-data2">
+        <img src="./multimedia/face1.jpeg" alt="" class="">
+        <h1>DIGITAL ART DIRECTOR INTERACTIVE DESIGNER CREATIVE DEVELOPER BASED IN KWARA STATE,NG</h1>
+    </div>
+
+</section>
+
+<section class="sec3">
+    <div class="sec3-div1">
+        <h1>WEBSITE</h1>
+    </div>
+    <div class="sec3-div2">
+        <img src="./multimedia/details.png" alt="" class="img2">
+    </div>
+</section>
+
+<section class="sec4">
+    <div class="sec4-main">
+    <div class="sec4-div1">
+        <h1 class="">UPCOMING NEXT</h1>
+        <h2>FRESH ENTRY- A selected work the latest digital realeases.</h2>
+        <p>TIP! click on the image to explore</p>
+    </div>
+    <div class="sec4-div2">
+        <img src="./multimedia/mixlr.png" alt="">
+        <br>
+        <h1>MIXLR <button class="btn btn-danger btn-sm mb-2">NEW</button></h1>
+        <P>Mixlr is a live audio streaming and broadcasting platform designed for musicians, podcasters, and radio stations to broadcast live audio to their audience, complete with chat and analytics.</P>
+    </div>
+    
+    <div class="sec4-div3">
+    <h1>THINK, CREATE DELIVER</h1>
+    <h2>A strong project is created by deep collaboration. I desgin, develop, and deliver websites that drives results and win awards</h2>
+    <h2>Like an artisan, I like to start from raw matter and give life to an iconic product that makes your brand stand out, starting from a visual strategy that guide the client's vision to reality.</h2>
+    <div class="for"><h1>ALL WORK</h1></div>
+    </div>
+</div>
+    <img src="./multimedia/face3.jpeg" alt="" class="img3">
+</section>
+
+<section class="sec5">
+    <div class="sec5-div1">
+        <img src="./multimedia/face4.jpeg" alt="" class="img4">
+        
+        <h1 class="for2">PIXEL</h1>     
+        
+         <img src="./multimedia/focus.jpeg" alt="" class="img5">
+
+         <h1 class="for3">PERFECT</h1>
+
+         <h1 class="milk">ARTISAN</h1>
+        <div class="look">
+         <h2 class="for4">Over the past 5+ years, I've turned up with high-profile clients and partners globally earning mentions & awards from digital platforms like the FWA</h2>
+         <h1 class="for5">AWWWARDS</h1>
+         <h2 class="for6">Communication Arts, Site Inspire, Behance, Codrops and many others</h2>
+        </div>
+    </div>
+    <div class="sec5-div2">
+        <h1 class="for1">THE </h1>
+        
+    </div>
+    <div class="sec5-div3">
+        <img src="./multimedia/face5.jpeg" alt="">
+    </div>
+</section>
+
+<section class="head been">
+    <div class="head-row1">
+        <img src="./multimedia/humankind.png" alt="">
+        <br>
+        <h1>HUMANKIND <button class="btn btn-danger btn-sm mb-2">NEW</button></h1>
+        <P>Humankind is a historical turn-based strategy game where you combine cultures from different eras to build a unique civilization and rewrite the entire narrative of human history.</P>
+    </div>
+    <div class="head-row2 ">
+        <h1 class="">ALL WORK!</h1>
+        <h2>A Featured selection the latest <br>work- of the last months.</h2>
+
+        <p>TIP! click sides to explore</p>
+    </div>
+    <div class="head-row3">
+        <img src="./multimedia/piggyvest.png" alt="">
+        <br>
+        <h1>PIGGY VEST <button class="btn btn-danger btn-sm mb-2">NEW</button></h1>
+        <P>PiggyVest is a Nigerian online savings and investment platform that helps users automate regular savings, earn competitive interest, and invest in various opportunities to build long-term wealth.</P>
+    </div>
+</section>
+
+<section class="sec6">
+    <div class="sec6-div1 overflow-hidden">
+        <h1>LET'S CREATE SOMETHING TOGETHER</h1>
+        <button class="btn9">EMAIL</button>
+    </div>
+    
+</section>
+
+<footer class="foot">
+    <div class="foot-div1">
+        <h1>MARVELLOUS<svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+  <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+</svg></h1>      
+
+    </div>
+    <div class="foot-div2">TWITTER * INSTAGRAM * LINKEDIN</div>
+</footer>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
+</body>
+</html>
+
